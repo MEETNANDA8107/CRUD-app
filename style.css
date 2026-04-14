@@ -1,0 +1,24 @@
+:root {
+    --primary: #2c3e50;
+    --secondary: #3498db;
+    --success: #27ae60;
+    --danger: #e74c3c;
+    --light: #ecf0f1;
+}
+
+body { font-family: 'Segoe UI', sans-serif; background: var(--light); color: var(--primary); }
+.container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+.card { background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+
+.form-group { display: flex; gap: 10px; margin-bottom: 10px; }
+input, select, textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+textarea { margin-bottom: 10px; height: 60px; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }
+th { background: var(--secondary); color: white; }
+
+.btn-save { background: var(--success); color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; }
+.btn-edit { color: var(--secondary); cursor: pointer; margin-right: 10px; border: none; background: none; font-weight: bold; }
+.btn-delete { color: var(--danger); cursor: pointer; border: none; background: none; font-weight: bold; }
+.btn-hidden { display: none; background: #95a5a6; color: white; border: none; padding: 10px 20px; border-radius: 4px; }
